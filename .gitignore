@@ -177,4 +177,7 @@ data/features.npy
 data/features_combined.csv
 data/structures.sdf
 data/enamine_kinase_library.sdf
+data/enamine_dds_50k.sdf
+data/enamine_hit_locator_library_460k.sdf
+data/enamine_extracted.csv
 *.npy
