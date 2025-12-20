@@ -219,7 +219,7 @@ with st.container():
 
     st.markdown("</div>", unsafe_allow_html=True)
 
-st.markdown("")
+
 
 tab_single, tab_batch = st.tabs(["🔹 Single compound", "📁 Batch prediction (CSV)"])
 
