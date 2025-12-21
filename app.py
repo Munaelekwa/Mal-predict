@@ -173,7 +173,6 @@ st.markdown(
 st.title("🧪 Antimalarial Activity & Binding Affinity Predictor")
 
 with st.container():
-    st.markdown('<div class="card">', unsafe_allow_html=True)
     st.markdown(
         """
         This tool predicts the antimalarial **activity** of small molecules and estimates their **binding affinities**
@@ -226,7 +225,6 @@ tab_single, tab_batch = st.tabs(["🔹 Single compound", "📁 Batch prediction 
 # ------------------------ SINGLE SMILES TAB ------------------------ #
 
 with tab_single:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
     st.subheader("Single compound prediction")
 
     smiles_input = st.text_input(
@@ -271,7 +269,6 @@ with tab_single:
 # ------------------------ BATCH CSV TAB ------------------------ #
 
 with tab_batch:
-    st.markdown('<div class="card">', unsafe_allow_html=True)
     st.subheader("Batch prediction from CSV")
 
     st.markdown(
