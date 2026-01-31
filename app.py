@@ -170,7 +170,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("🧪 Antimalarial Activity & Binding Affinity Predictor")
+st.title("🧪 Mal-Predict")
 
 with st.container():
     st.markdown(

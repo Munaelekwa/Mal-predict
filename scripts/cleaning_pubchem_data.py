@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Load dataset (update with your file path)
+# Load dataset
 df = pd.read_csv("data/pubchem_data.csv")
 
 # Step 1: Keep only relevant columns
