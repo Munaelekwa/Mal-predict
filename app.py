@@ -96,7 +96,7 @@ def predict_affinity(smiles):
     return dict(zip(protein_order, preds))
 
 # --- Streamlit UI ---
-st.set_page_config(page_title="Antimalarial Activity & Binding Affinity Predictor", page_icon="🧪", layout="wide")
+st.set_page_config(page_title="Mal-predict", page_icon="🧪", layout="wide")
 
 st.markdown("""
 <style>
@@ -252,4 +252,5 @@ Docking scores are typically negative (strong binding) to positive (weak/no bind
 More negative values suggest stronger predicted binding to the target.
 
 This tool is for research and screening support, not a substitute for experimental validation.
+By Munachiso Elekwa (2026)
 """)
